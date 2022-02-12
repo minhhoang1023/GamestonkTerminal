@@ -291,6 +291,8 @@ def display_candle(
         String to include in title
     external_axes : Optional[List[plt.Axes]], optional
         External axes (2 axes are expected in the list), by default None
+    asset_type_: str
+        String to include in title
     """
     if add_trend:
         if (df_stock.index[1] - df_stock.index[0]).total_seconds() >= 86400:

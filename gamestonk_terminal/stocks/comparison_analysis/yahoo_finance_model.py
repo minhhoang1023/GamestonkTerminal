@@ -131,7 +131,6 @@ def get_sp500_comps_tsne(
     xs = tsne_features[:, 0]
     ys = tsne_features[:, 1]
     if not no_plot:
-
         # This plot has 1 axis
         if not external_axes:
             _, ax = plt.subplots(figsize=plot_autoscale(), dpi=PLOT_DPI)

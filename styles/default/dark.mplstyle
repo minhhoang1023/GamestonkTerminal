@@ -78,7 +78,14 @@ legend.loc: upper left
 
 figure.facecolor: black
 figure.edgecolor: black
+<<<<<<< HEAD
 figure.subplot.hspace: 0.2
+=======
+<<<<<<< HEAD
+=======
+figure.subplot.hspace: 0.2
+>>>>>>> main
+>>>>>>> 4e085bd6a... Fix Theo comment
 
 savefig.facecolor: black
 savefig.edgecolor: black
